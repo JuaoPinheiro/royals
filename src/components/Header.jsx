@@ -10,7 +10,7 @@ export default function Header() {
             <a className='paragraph-header' href="#products">Produtos</a>
             <a  className='paragraph-header'href="#about">Sobre Nós</a>
             <a className='paragraph-header' href="#contact">Contato</a>
-            <a className='whats' target="_blank" href='https://api.whatsapp.com/send?phone=5541984501617'>Nosso WhatsApp</a>
+            <a className='whats' target="_blank" href='https://api.whatsapp.com/send?phone=5541997999847'>Nosso WhatsApp</a>
         </C.Header>
     )
 }

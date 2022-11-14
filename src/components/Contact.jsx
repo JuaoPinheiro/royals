@@ -56,7 +56,7 @@ export default function Contact() {
 
                     <div className='individual-contact'>
                         <C.Zap />
-                        <a target='_blank' href="https://api.whatsapp.com/send?phone=5541984501617&text=Olá Royals Parfums, gostaria de mais informações sobre os perfumes.">(41) 9-98450-1617 </a>
+                        <a target='_blank' href="https://api.whatsapp.com/send?phone=5541997999847&text=Olá Royals Parfums, gostaria de mais informações sobre os perfumes.">(41) 9-98450-1617 </a>
                     </div>
 
                 </div>
