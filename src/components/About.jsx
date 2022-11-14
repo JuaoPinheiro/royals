@@ -3,7 +3,7 @@ import * as C from '../home/styled'
 
 export default function About(){
     return(
-        <C.About>
+        <C.About id='about'>
             <h1>Sobre Nós</h1>
             <div className='line'></div>
             <div className='div-about'>

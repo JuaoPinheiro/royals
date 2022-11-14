@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FaLock } from "react-icons/fa";
 import { FaCreditCard } from "react-icons/fa";
 import { FaTruckMoving } from "react-icons/fa";
 import { BsFillBagCheckFill } from "react-icons/bs";
@@ -69,11 +68,13 @@ export const Zap = styled(BsWhatsapp)`
 
 export const Container = styled.div`
     position: relative;
+    
     top: 50px;
 
     .div-carousel{
         display: flex;
         position: relative;
+        
 
         img{
             @media (max-width: 740px){
@@ -106,6 +107,17 @@ export const Container = styled.div`
             top: 95px;
             left: 100px;
         }
+
+        @media (max-width: 740px){
+            font-size: 30px;
+            top: 170px;
+        }
+
+        @media (max-width: 510px){
+            left: 50px;
+            font-size: 20px;
+            top: 190px;
+        }
         }
 
         p{
@@ -131,6 +143,16 @@ export const Container = styled.div`
             font-size: 8px;
             top: 120px;
             left: 100px;
+        }
+
+        @media (max-width: 740px){
+            font-size: 20px;
+            top: 220px;
+        }
+
+        @media (max-width: 510px){
+            left: 50px;
+            font-size: 10px;
         }
 
         }
@@ -165,11 +187,18 @@ export const Header = styled.header`
     a{
         text-decoration: none;
         color: #fff;
+
+        @media (max-width: 410px){
+            font-size: 13px;
+        }
     }
 
     .paragraph-header{
         @media (max-width: 800px){
             display: none;
+        }
+        &:hover{
+            color: #a8895a;
         }
     }
 
@@ -180,6 +209,10 @@ export const Header = styled.header`
         height: 40px;
         text-align: center;
         padding-top: 9px;
+
+        @media (max-width: 410px){
+            width: 130px;
+        }
 
         &:hover{
             transform: scale(1.1);
@@ -217,6 +250,7 @@ export const ContainerService = styled.div`
 
 export const Others = styled.div`
 
+
     .div-others{
         background: #2C3145;
         color: #8E6C3A;
@@ -232,6 +266,10 @@ export const Others = styled.div`
             font-size: 20px;
         }
 
+        @media (max-width: 420px){
+            font-size: 15px;
+        }
+
         }
 
         p{
@@ -240,6 +278,10 @@ export const Others = styled.div`
 
             @media (max-width: 775px){
             font-size: 15px;
+        }
+
+        @media (max-width: 420px){
+            font-size: 10px;
         }
 
         }
@@ -285,6 +327,10 @@ export const About = styled.div`
         @media (max-width: 740px){
             margin-left: 40%;
         }
+
+        @media (max-width: 520px){
+            margin-left: 35%;
+        }
     }
 
     .line{
@@ -295,6 +341,10 @@ export const About = styled.div`
 
         @media (max-width: 740px){
             margin-left: 40%;
+        }
+
+        @media (max-width: 520px){
+            margin-left: 35%;
         }
 
     }
@@ -322,7 +372,10 @@ export const Contact = styled.div`
         padding-top: 10px;
         font-size: 17px;
         outline: #8E6C3A;
-        
+
+        @media (max-width: 520px){
+                width: 200px;
+        }
     }
 
     h1{
@@ -332,6 +385,10 @@ export const Contact = styled.div`
 
         @media (max-width: 740px){
             margin-left: 40%;
+        }
+
+        @media (max-width: 520px){
+            margin-left: 35%;
         }
     }
 
@@ -344,6 +401,10 @@ export const Contact = styled.div`
 
         @media (max-width: 740px){
             margin-left: 40%;
+        }
+
+        @media (max-width: 520px){
+            margin-left: 35%;
         }
     }
 
@@ -365,7 +426,7 @@ export const Contact = styled.div`
         border: 3px solid #8E6C3A;
         border-radius: 5px;
         width: 425px;
-        height: 650px;
+        height: 550px;
 
         @media (max-width: 1035px){
             margin-left: 30%;
@@ -381,6 +442,20 @@ export const Contact = styled.div`
         @media (max-width: 580px){
             margin-left: 15%;
         }
+
+        @media (max-width: 520px){
+            margin-left: 23%;
+            width: 300px;
+        }
+
+        @media (max-width: 460px){
+            margin-left: 15%;
+        }
+
+        @media (max-width: 400px){
+            margin-left: 10%;
+        }
+
         span{
             color: red;
             margin-top: -25px;
@@ -398,6 +473,11 @@ export const Contact = styled.div`
             border-radius: 5px;
             font-size: 17px;
             outline: none;
+
+            @media (max-width: 520px){
+                width: 200px;
+        }
+
         }
 
         input[type=number]::-webkit-inner-spin-button { 
@@ -413,6 +493,11 @@ export const Contact = styled.div`
             color: #fff;
             cursor: pointer;
             border-radius: 10px;
+
+            @media (max-width: 520px){
+                width: 150px;
+        }
+
 
 
             &:hover{
@@ -432,6 +517,10 @@ export const Contact = styled.div`
         padding-top: 30px;
         gap: 50px;
 
+        @media (max-width: 520px){
+            padding-left: 20%;
+        }
+
         .individual-contact{
             display: flex;
             gap: 20px;
@@ -442,6 +531,10 @@ export const Contact = styled.div`
             text-decoration: none;
             font-size: 20px;
             color: #8E6C3A;
+
+            &:hover{
+                opacity: .7;
+        }
         }
 
         h2{
@@ -469,4 +562,8 @@ export const Footer = styled.footer`
     height: 150px;
     color: #fff;
     font-size: 13px;
+
+    p{
+        user-select: none;
+    }
 `

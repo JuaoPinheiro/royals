@@ -7,7 +7,7 @@ import * as C from '../home/styled'
 
 export default function CarouselBanner() {
     return (
-        <C.Container>
+        <C.Container id="start">
             <Carousel>
                 <div className="div-carousel">
                     <img src={Banner1} />

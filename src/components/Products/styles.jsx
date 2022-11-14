@@ -3,11 +3,30 @@ import styled from 'styled-components'
 
 export const Products = styled.div`
 
+        @media (max-width: 535px){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+         }      
+
     .container-1{
         display: flex;
         align-items: center;
         gap: 50px;
         background: #d9d9d9;
+
+        @media (max-width: 535px){
+            flex-direction: column;
+            border-radius: 15px;
+            width: 300px;
+            margin-bottom: 30px;
+            padding: 20px 20px;
+
+            &:hover{
+                transition: 0.7s ease all;
+                border: 3px solid #8E6C3A;
+            }
+        }
 
         img{
             height: 500px;
@@ -16,6 +35,10 @@ export const Products = styled.div`
 
             @media (max-width: 1155px){
                 height: 400px;
+
+            @media (max-width: 535px){
+                padding-left: 20px;
+         }
          }
 
          @media (max-width: 860px){
@@ -26,6 +49,9 @@ export const Products = styled.div`
                 height: 200px;
          }
 
+         @media (max-width: 410px){
+                height: 150px;
+         }
         }
     }
 
@@ -35,6 +61,20 @@ export const Products = styled.div`
         gap: 50px;
         background: #ebf6f8;
 
+        @media (max-width: 535px){
+            flex-direction: column-reverse;
+            width: 300px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            padding: 20px 20px;
+
+            &:hover{
+                transition: 0.7s ease all;
+                border: 3px solid #2C3145;
+            }
+         }
+
+
         img{
             height: 500px;
             padding-right: 100px;
@@ -43,6 +83,10 @@ export const Products = styled.div`
             @media (max-width: 1155px){
                 height: 400px;
          }
+            @media (max-width: 535px){
+                padding-left: 100px;
+         }
+         
 
          @media (max-width: 860px){
                 height: 300px;
@@ -50,6 +94,10 @@ export const Products = styled.div`
 
          @media (max-width: 690px){
                 height: 200px;
+         }
+
+         @media (max-width: 410px){
+                height: 150px;
          }
 
         }
@@ -61,6 +109,19 @@ export const Products = styled.div`
         gap: 50px;
         background: #ffffec;
 
+        @media (max-width: 535px){
+            flex-direction: column;
+            width: 300px;
+            border-radius: 15px;
+            margin-bottom: 50px;
+            padding: 20px 20px;
+
+            &:hover{
+                transition: 0.7s ease all;
+                border: 3px solid #8E6C3A;
+            }
+         }
+
         img{
             height: 500px;
             padding-right: 100px;
@@ -69,6 +130,9 @@ export const Products = styled.div`
             @media (max-width: 1155px){
                 height: 400px;
          }
+         @media (max-width: 535px){
+            padding-left: 100px;
+         }
 
          @media (max-width: 860px){
                 height: 300px;
@@ -76,6 +140,10 @@ export const Products = styled.div`
 
          @media (max-width: 690px){
                 height: 200px;
+         }
+
+         @media (max-width: 410px){
+                height: 150px;
          }
 
         }
@@ -87,6 +155,12 @@ export const TextContainer = styled.div`
             flex-direction: column;
             gap: 15px;
             padding-left: 100px;
+
+            @media (max-width: 535px){
+                margin-right: 70px;
+                justify-content: center;
+                padding-left: 70px;
+         }
 
             h2{
                 font-size: 30px;
@@ -183,9 +257,11 @@ export const TextContainer2 = styled.div`
             gap: 15px;
             padding-right: 100px;
 
-            @media (max-width: 580px){
-            padding-right: 20px;
-        }
+        @media (max-width: 535px){
+                margin-left: 70px;
+                justify-content: center;
+                padding-right: 50px;
+         }
 
             h2{
                 font-size: 30px;

@@ -14,7 +14,7 @@ import * as C from './styles'
 export default function Products() {
 
     return (
-        <C.Products>
+        <C.Products id='products'>
             <div className='container-1'>
                 <img src={Parfum4} alt="" />
                 <C.TextContainer2>
